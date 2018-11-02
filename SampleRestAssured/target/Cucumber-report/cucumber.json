@@ -1,0 +1,235 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate google navigation api",
+        "description": "",
+        "id": "testing-sample-api\u0027s;validate-google-navigation-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 833130586,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to validate navigation API with header or parameter",
+            "match": {
+              "location": "StepDefinitions.i_want_to_validate_navigation_API_with_header_or_parameter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1147070131,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to perform GET call to \"http://api.openweathermap.org/data/2.5/weather?q\u003dLondon\u0026APPID\u003d8bfb777a7ae285b5f79ff7f0ece496a2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.openweathermap.org/data/2.5/weather?q\u003dLondon\u0026APPID\u003d8bfb777a7ae285b5f79ff7f0ece496a2",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_perform_GET_call_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2228850,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to verify responce code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_verify_responce_code_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc1"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Valiadte post man api to create data",
+        "description": "",
+        "id": "testing-sample-api\u0027s;valiadte-post-man-api-to-create-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 359273,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to validate create data api with headers",
+            "match": {
+              "location": "StepDefinitions.i_want_to_validate_create_data_api_with_headers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107417749,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to create JSON object for request body",
+            "match": {
+              "location": "StepDefinitions.i_want_to_create_JSON_object_for_request_body()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1715589195,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to perform POST call to \"https://postman-echo.com/post\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://postman-echo.com/post",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_perform_POST_call_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 489004359,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to verify response code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_verify_response_code_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@tc2"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Valiadte post man api to create data",
+        "description": "",
+        "id": "testing-sample-api\u0027s;valiadte-post-man-api-to-create-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457212,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to validate create data api with headers",
+            "match": {
+              "location": "StepDefinitions.i_want_to_validate_create_data_api_with_headers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389334,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I want to input request body payload as a JSON file \"C:\\\\Users\\\\dsaishankar\\\\Desktop\\\\test.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C:\\\\Users\\\\dsaishankar\\\\Desktop\\\\test.json",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_input_request_body_payload_as_a_JSON_file(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1637045157,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I want to perform POST call to \"https://postman-echo.com/post\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://postman-echo.com/post",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_perform_POST_call_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28357347,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path data.text doesn\u0027t match.\nExpected: hero\n  Actual: null\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)\r\n\tat io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)\r\n\tat stepDefinitions.StepDefinitions.i_want_to_verify_response_code_as(StepDefinitions.java:93)\r\n\tat ✽.Then I want to verify response code as \"200\"(src/test/java/Feature Files/hcsc.feature:22)\r\n",
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "I want to verify response code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.i_want_to_verify_response_code_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@tc3"
+          }
+        ]
+      }
+    ],
+    "name": "Testing sample API\u0027s",
+    "description": "",
+    "id": "testing-sample-api\u0027s",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature Files/hcsc.feature"
+  }
+]
